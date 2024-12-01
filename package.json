@@ -1,0 +1,26 @@
+{
+  "name": "servidor-estatico-animes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev1": "node --watch serverTCP.js",
+    "dev2": "node --watch serverHTTP.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {},
+    "moduleFileExtensions": ["js"]
+  }
+}
